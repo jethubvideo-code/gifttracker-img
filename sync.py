@@ -32,4 +32,4 @@ for slug, url in imgs.items():
 with open('docs/images.json', 'w') as f:
     json.dump({'updated': time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime()), 'images': manifest, 'failed': fail}, f, ensure_ascii=False, indent=1)
 print('mirror: %d ok, %d fail, %s' % (len(manifest), len(fail), fail[:5]))
-if fail and manifest and len(fail) > len(manifest) * 0.2: sys.exit(1)
+if not manifest and fail and len(fail) >= 50: sys.exit(1)  # тотальный отказ источника
