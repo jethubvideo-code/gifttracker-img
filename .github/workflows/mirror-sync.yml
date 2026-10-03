@@ -1,0 +1,33 @@
+name: Mirror Sync (§6.1)
+on:
+  schedule:
+    - cron: "25 * * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: mirror
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - uses: actions/setup-python@0b9361e9a12a84ec4a2a3f21b7dc8d1d6a17ee2d # v5.3.0
+        with: { python-version: '3.12' }
+      - run: pip install pillow -q
+      - run: python sync.py
+        env:
+          SRC: https://raw.githubusercontent.com/jethubvideo-code/gifttracker-bot/main/docs/images.json
+      - name: Commit
+        run: |
+          git config user.name "img-mirror"
+          git config user.email "mirror@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet && echo "NO CHANGES" && exit 0
+          git commit -m "mirror: sync $(date -u +%H:%M) [skip ci]"
+          git push
