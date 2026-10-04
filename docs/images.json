@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-04T13:55:25Z",
+ "updated": "2026-10-04T20:37:11Z",
  "images": {
   "BerryBox": "img/BerryBox.webp",
   "BigYear": "img/BigYear.webp",
@@ -67,6 +67,8 @@
   "PetSnake": "img/PetSnake.webp",
   "PoolFloat": "img/PoolFloat.webp",
   "PrettyPosy": "img/PrettyPosy.webp",
+  "PreciousPeach": "img/PreciousPeach.webp",
+  "RareBird": "img/RareBird.webp",
   "RecordPlayer": "img/RecordPlayer.webp",
   "RestlessJar": "img/RestlessJar.webp",
   "SakuraFlower": "img/SakuraFlower.webp",
@@ -119,8 +121,6 @@
   "LowRider: HTTP Error 404: Not Found",
   "NailBracelet: HTTP Error 404: Not Found",
   "PlushPepe: HTTP Error 404: Not Found",
-  "PreciousPeach: HTTP Error 404: Not Found",
-  "RareBird: HTTP Error 404: Not Found",
   "SharpTongue: HTTP Error 404: Not Found",
   "tophat: HTTP Error 404: Not Found",
   "WestsideSign: HTTP Error 404: Not Found"
