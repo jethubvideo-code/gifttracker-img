@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-04T02:46:57Z",
+ "updated": "2026-10-04T05:32:47Z",
  "images": {
   "BerryBox": "img/BerryBox.webp",
   "BigYear": "img/BigYear.webp",
@@ -107,7 +107,7 @@
   "algorithmcup: HTTP Error 404: Not Found",
   "ArtisanBrick: HTTP Error 404: Not Found",
   "BlingBinky: HTTP Error 404: Not Found",
-  "BondedRing: <urlopen error [Errno 104] Connection reset by peer>",
+  "BondedRing: HTTP Error 404: Not Found",
   "DeskCalendar: HTTP Error 404: Not Found",
   "ElectricSkull: HTTP Error 404: Not Found",
   "eternalrose: HTTP Error 404: Not Found",
