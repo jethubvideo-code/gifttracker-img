@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-03T19:49:17Z",
+ "updated": "2026-10-04T02:46:57Z",
  "images": {
   "BerryBox": "img/BerryBox.webp",
   "BigYear": "img/BigYear.webp",
@@ -70,6 +70,7 @@
   "SakuraFlower": "img/SakuraFlower.webp",
   "ScaredCat": "img/ScaredCat.webp",
   "SantaHat": "img/SantaHat.webp",
+  "SignetRing": "img/SignetRing.webp",
   "SkullFlower": "img/SkullFlower.webp",
   "SkyStilettos": "img/SkyStilettos.webp",
   "SleighBell": "img/SleighBell.webp",
@@ -106,7 +107,7 @@
   "algorithmcup: HTTP Error 404: Not Found",
   "ArtisanBrick: HTTP Error 404: Not Found",
   "BlingBinky: HTTP Error 404: Not Found",
-  "BondedRing: HTTP Error 404: Not Found",
+  "BondedRing: <urlopen error [Errno 104] Connection reset by peer>",
   "DeskCalendar: HTTP Error 404: Not Found",
   "ElectricSkull: HTTP Error 404: Not Found",
   "eternalrose: HTTP Error 404: Not Found",
@@ -121,7 +122,6 @@
   "PreciousPeach: HTTP Error 404: Not Found",
   "RareBird: HTTP Error 404: Not Found",
   "SharpTongue: HTTP Error 404: Not Found",
-  "SignetRing: HTTP Error 404: Not Found",
   "tophat: HTTP Error 404: Not Found",
   "WestsideSign: HTTP Error 404: Not Found"
  ]
