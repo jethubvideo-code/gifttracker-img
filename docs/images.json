@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-04T05:32:47Z",
+ "updated": "2026-10-04T13:55:25Z",
  "images": {
   "BerryBox": "img/BerryBox.webp",
   "BigYear": "img/BigYear.webp",
@@ -17,7 +17,9 @@
   "DurovsGlasses": "img/DurovsGlasses.webp",
   "EasterEgg": "img/EasterEgg.webp",
   "DurovsCap": "img/DurovsCap.webp",
+  "ElectricSkull": "img/ElectricSkull.webp",
   "EternalCandle": "img/EternalCandle.webp",
+  "eternalrose": "img/eternalrose.webp",
   "EvilEye": "img/EvilEye.webp",
   "FaithAmulet": "img/FaithAmulet.webp",
   "FinePen": "img/FinePen.webp",
@@ -109,8 +111,6 @@
   "BlingBinky: HTTP Error 404: Not Found",
   "BondedRing: HTTP Error 404: Not Found",
   "DeskCalendar: HTTP Error 404: Not Found",
-  "ElectricSkull: HTTP Error 404: Not Found",
-  "eternalrose: HTTP Error 404: Not Found",
   "GenieLamp: HTTP Error 404: Not Found",
   "HeartLocket: HTTP Error 404: Not Found",
   "IonGem: HTTP Error 404: Not Found",
