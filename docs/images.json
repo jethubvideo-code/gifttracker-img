@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-04T23:35:54Z",
+ "updated": "2026-10-05T00:49:51Z",
  "images": {
   "BerryBox": "img/BerryBox.webp",
   "BigYear": "img/BigYear.webp",
@@ -109,7 +109,7 @@
  },
  "failed": [
   "algorithmcup: HTTP Error 404: Not Found",
-  "ArtisanBrick: HTTP Error 404: Not Found",
+  "ArtisanBrick: HTTP Error 502: Bad Gateway",
   "BlingBinky: HTTP Error 404: Not Found",
   "BondedRing: HTTP Error 404: Not Found",
   "DeskCalendar: HTTP Error 404: Not Found",
