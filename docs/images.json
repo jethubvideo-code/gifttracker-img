@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T19:21:46Z",
+ "updated": "2026-10-20T22:24:09Z",
  "images": {
   "BerryBox": "img/BerryBox.webp",
   "BigYear": "img/BigYear.webp",
@@ -121,7 +121,8 @@
   "WinterWreath": "img/WinterWreath.webp",
   "WitchHat": "img/WitchHat.webp",
   "XmasStocking": "img/XmasStocking.webp",
-  "miragelamp": "img/miragelamp.webp"
+  "miragelamp": "img/miragelamp.webp",
+  "resistancedog": "img/resistancedog.webp"
  },
  "failed": []
 }
